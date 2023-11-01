@@ -32,7 +32,7 @@ body {
   background-color: #F6F6F6;
   flex-direction: column;
   justify-content: center;
-  margin-top: -9px;
+  margin: 0;
 }
 
 .loading {
@@ -81,8 +81,6 @@ header .logo {
   justify-content: center;
   box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.2);
   font-weight: 500;
-  margin-left: -9px;
-  margin-right: -9px;
 }
 
 .fa-location-dot {
@@ -100,7 +98,6 @@ header .logo {
   font-weight: bold;
   text-align: center;
   margin-bottom: 0px;
-  max-width: 60%;
   padding: 80px;
   margin-top: -50px;
 }
@@ -151,8 +148,6 @@ header .logo {
   background-color: white;
   padding-right: 19px;
   padding-bottom: 40px;
-  margin-right: -9px;
-  margin-left: -9px;
 }
 
 h4 {
@@ -207,7 +202,6 @@ li {
   border-radius: 25px;
   box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.1);
   border: none;
-  padding-right: 70px;
   background: #f6f6f6;
   font-size: 17px;
   line-height: 19.96px;
@@ -346,8 +340,8 @@ footer {
   background-color: #353535;
   color: #FFF;
   padding: 22px 25px 22px 25px;
+  box-sizing: border-box;
   gap: 16px;
-  width: 100%;
   margin-left: -9px;
 }
 @media only screen and (min-width: 1000px) {
@@ -393,10 +387,6 @@ a {
   margin-left: -5px;
 }
 
-.lil .fa-solid {
-  transform: rotate(-52deg);
-}
-
 .color11 {
   color: #F6F6F6;
   margin-top: -10px;
@@ -421,9 +411,8 @@ a {
     font-weight: bold;
     text-align: center;
     margin-bottom: 0px;
-    min-width: 90%;
+    box-sizing: border-box;
     padding: 80px;
-    margin-top: -50px;
   }
   .filter-bar {
     box-shadow: none;
@@ -446,13 +435,12 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-right: 810px;
     justify-content: center;
+    padding-right: 700px;
   }
   .color9 {
     padding-top: 114px;
     justify-content: right;
-    padding-right: 150px;
   }
   .card2 {
     width: 48%;

@@ -72,7 +72,7 @@ header {
   .card2 {
     margin-right: 96px;
     margin-left: 96px;
-    padding-bottom: 55px;
+    padding-bottom: 80px;
   }
 }
 @media only screen and (min-width: 1440px) {
@@ -80,7 +80,7 @@ header {
     margin-right: 192px;
     margin-left: 192px;
     padding: 0 210px 0 210px;
-    padding-bottom: 55px;
+    padding-bottom: 80px;
   }
 }
 
@@ -127,27 +127,26 @@ h1 {
 .icone-placement {
   display: flex;
   position: absolute;
-  cursor: pointer;
   border: 3px;
   top: 30px;
   right: -50px;
+  transition: 0, 5ms;
 }
-.icone-placement:active {
+.icone-placement:hover {
   display: none;
 }
 
 .icone-placement2 {
   display: flex;
   position: absolute;
-  cursor: pointer;
   -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   top: 30px;
   right: -50px;
 }
-.icone-placement2:active {
-  display: none;
+.icone-placement2:hover {
+  background: blue;
 }
 
 .menu-enter {
@@ -324,7 +323,6 @@ footer {
   gap: 16px;
   position: absolute;
   width: 100%;
-  top: 1500px;
 }
 
 footer ul {
@@ -378,4 +376,4 @@ footer ul {
   margin-left: -5px;
 }
 
-/*# sourceMappingURL=mldds.css.map */
+/*# sourceMappingURL=stylemenu.css.map */
