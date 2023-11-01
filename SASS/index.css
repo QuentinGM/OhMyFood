@@ -214,6 +214,14 @@ li {
   font-weight: bold;
 }
 
+.button2 i {
+  color: #7f7f7f;
+}
+
+i.fa-store {
+  color: #9356dc;
+}
+
 .pdrfc {
   padding-right: 10px;
 }
@@ -383,6 +391,10 @@ a {
 
 .lil {
   margin-left: -5px;
+}
+
+.lil .fa-solid {
+  transform: rotate(-52deg);
 }
 
 .color11 {
