@@ -73,12 +73,14 @@ header {
 
 .color {
     color :#353535;
-    font-weight: bold;
+    font-family: "Roboto";
+    font-weight: 500;
 }
 
 .color2 {
     font-size : 24px;
-    font-weight : bold;
+    font-family: "Roboto";
+    font-weight : 700;
     text-align: center;
     margin-bottom : 0px;
     padding : 80px;
@@ -86,9 +88,9 @@ header {
 }
 
 .color3 {
-    font-size : 16px;
+    font-size : 18px;
     font-family: "Roboto";
-    font-weight: bold;
+    font-weight: 300;
     color :#353535;
     text-align: center;
     margin-top : -65px;
@@ -107,6 +109,8 @@ header {
     justify-content: center;
     align-items: center;
     cursor : pointer;
+    font-family: "Roboto";
+    font-weight: 500;
     gap: 10px;
     height: 50px;
     padding: 19px;
@@ -114,7 +118,7 @@ header {
     border: 2px solid rgba(217, 217, 217, 1);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
     background: linear-gradient(#d86cda,#ae5fdc);
-    font-size: 17px;
+    font-size: 16px;
     line-height: 19.96px;
     transition : all 450ms;
     &:hover {
@@ -134,6 +138,8 @@ header {
 }
 
 h4 {
+    font-family: "Roboto";
+    font-weight: 700;
     margin-top : 1px;
     margin-left : 15px;
     font-size : 18px;
@@ -175,10 +181,17 @@ li {
     position : absolute;
 }
 
+p .annotation {
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
 .button2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Roboto";
+    font-weight: 500;
     gap: 10px;
     height: 50px;
     padding: 35px;
@@ -280,6 +293,8 @@ h3 {
     padding-left : 15px;
     font-size : 17px;
     color :black;
+    font-family: "Roboto";
+    font-weight: 300;
 }
 
 .heart-container {
@@ -363,7 +378,8 @@ a {
 
 .color12 {
     color : #f6f6f6;
-    font-family: "Roboto-light";
+    font-family: "Roboto";
+    font-weight: 400;
     text-decoration : none;
 }
 
