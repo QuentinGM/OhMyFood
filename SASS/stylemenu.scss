@@ -59,8 +59,14 @@ header {
 }
 
 
-.direction {
+.heart-container {
     position : relative;
+    &:hover {
+        .heart-full {
+            opacity: 1;
+            transition: all 450ms;
+        }
+    }
 }
 
 h1 {
@@ -81,9 +87,9 @@ h1 {
 .fa-color1 {
     background: linear-gradient(45deg, #f09433 0%,#ae5fdb 25%,#b762db 50%,#c466db 75%,#d86dda 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: transparent;
     -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
+    color: transparent;
 }
 
 .titre {
@@ -95,29 +101,18 @@ h1 {
     }
 }
 
-.icone-placement {
-    display :flex;
+.heart-full {
     position: absolute;
     border: 3px;
-    top : 30px;
-    right : -50px;
-    transition : 0,5ms;
-    &:hover {
-        display: none;
-    }
+    top : 35px;
+    right : -45px;
+    opacity: 0;
 }
 
-.icone-placement2 {
-    display :flex;
+.heart-empty {
     position: absolute;
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    top : 30px;
-    right : -50px;
-    &:hover {
-        background  : blue;
-    }
+    top : 33px;
+    right : -45px;
 }
 
 .menu-enter {

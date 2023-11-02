@@ -301,38 +301,26 @@ h3 {
   color: black;
 }
 
-.icone-placement {
-  display: flex;
+.heart-container {
+  position: relative;
+}
+.heart-container:hover .heart-full {
+  opacity: 1;
+  transition: all 450ms;
+}
+
+.heart-full {
   position: absolute;
-  cursor: pointer;
   border: 3px;
-  top: 255px;
-  right: 30px;
-}
-.icone-placement:active {
-  display: none;
+  top: -58px;
+  right: 20px;
+  opacity: 0;
 }
 
-.fa-color1 {
-  background: linear-gradient(45deg, #f09433 0%, #ae5fdb 25%, #b762db 50%, #c466db 75%, #d86dda 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-}
-
-.icone-placement2 {
-  display: flex;
+.heart-empty {
   position: absolute;
-  cursor: pointer;
-  -webkit-text-fill-color: white;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  top: 255px;
-  right: 30px;
-}
-.icone-placement2:active {
-  display: none;
+  top: -60px;
+  right: 20px;
 }
 
 footer {
